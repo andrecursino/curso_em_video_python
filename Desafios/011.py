@@ -1,3 +1,4 @@
+#litros por metro
 h = float(input('Qual altura da parede? '))
 l = float(input('Qual a largura da parede? '))
 a = h * l
