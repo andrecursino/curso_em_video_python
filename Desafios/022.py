@@ -7,8 +7,9 @@ print('Com todas as letras minuscúlas:{} '.format(
     nome.lower()
 ))
 print('Ele tem {} letras'.format(
-    len(nome.strip())
+    len(nome.strip()) - nome.count(' ')
 ))
 print('Comprimento primeiro nome: {}'.format(
     len(dividido[0])
 ))
+print('Comprimento primeiro nome {}'.format(nome.find(' ')))
