@@ -1,4 +1,2 @@
-name = str(input('Insira o nome: '))
-minus = name.lower()
-silva = 'silva' in minus
-print(silva)
+name = str(input('Insira o nome: ')).strip()
+print('Seu nome tem Silva? {}'.format('silva' in name.lower()))
